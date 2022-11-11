@@ -1,0 +1,36 @@
+// you need to create a html file with .html extention
+<html>  
+<head>  
+<meta charset="utf-8">  
+<title>Large number</title>  
+</head>  
+<body>  
+<form>  
+<input type="button" value="Result" onclick="display()"/>  
+</form>  
+<script src="hello.js">  
+</script>  
+</body>  
+</html>  
+
+
+
+//you need to create a javaScript file with .js extention
+function display() {  
+    a=5;
+    b=-3;
+    c=6;
+    d=7;
+    if(a>b && a>c && a>d){
+        alert("5 is large");
+    } 
+    else if(b>a && b>c && b>d){
+        alert("-3 is large");
+    }
+    else if(c>a && c>b && c>d){
+        alert("6 is large");
+    }
+    else{
+        alert("7 is large");
+    }
+}  
